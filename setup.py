@@ -19,7 +19,7 @@ long_description = (
 
 setup(
     name='redturtle.jquerybrowser',
-    version='1.0a1',
+    version='1.0a2.dev0',
     description="Add-on for Plone which implements the original jquery-browser code.",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
