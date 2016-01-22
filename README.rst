@@ -6,33 +6,16 @@
 redturtle.jquerybrowser
 ==============================================================================
 
-Tell me what your product does
+This product adds a small js script that contains the original jQuery code for reimplementing the ``.browser`` function.
+This function was removed from jQuery starting from version 1.9, but it's still required for some projects for broswer identification.
 
-Features
---------
-
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
+The original script added by this package is found here https://github.com/gabceb/jquery-browser-plugin/blob/master/dist/jquery.browser.min.js.
 
 
 Documentation
 -------------
 
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
-Translations
-------------
-
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
+Full documentation for end users can be found in the "docs" folder.
 
 
 Installation
@@ -54,16 +37,15 @@ and then running ``bin/buildout``
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/collective/redturtle.jquerybrowser/issues
-- Source Code: https://github.com/collective/redturtle.jquerybrowser
-- Documentation: https://docs.plone.org/foo/bar
+- Issue Tracker: https://github.com/RedTurtle/redturtle.jquerybrowser/issues
+- Source Code: https://github.com/RedTurtle/redturtle.jquerybrowser
 
 
 Support
 -------
 
 If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
+We have a mailing list located at: sviluppoplone@redturtle.it
 
 
 License
