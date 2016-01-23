@@ -6,8 +6,8 @@
 redturtle.jquerybrowser
 ==============================================================================
 
-This product adds a small js script that contains the original jQuery code for reimplementing the ``.browser`` function.
-This function was removed from jQuery starting from version 1.9, but it's still required for some projects for broswer identification.
+This Plone add-on adds a small js script that contains the jQuery code for the ``.browser`` function.
+This function was removed from jQuery starting from version 1.9, but it's still required for some projects for browser identification.
 
 The original script added by this package is found here https://github.com/gabceb/jquery-browser-plugin/blob/master/dist/jquery.browser.min.js.
 
@@ -17,6 +17,14 @@ Documentation
 
 Full documentation for end users can be found in the "docs" folder.
 
+
+Compatibility
+-------------
+
+redturtle.jquerybrowser works with every plone.app.jquery_ version > 1.9.
+You don't need this package if you are using an older version of plone.app.jquery_.
+
+.. _plone.app.jquery: https://github.com/plone/plone.app.jquery
 
 Installation
 ------------
